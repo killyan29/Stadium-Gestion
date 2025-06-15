@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+    <children>
+        <TableView fx:id="terrainTable" layoutX="50" layoutY="50" prefWidth="400">
+            <columns>
+                <TableColumn fx:id="colNom" text="Nom"/>
+                <TableColumn fx:id="colStatut" text="Statut"/>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
